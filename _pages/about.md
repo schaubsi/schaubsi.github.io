@@ -13,4 +13,4 @@ I am a postdoctoral researcher at the [Visual Inference Lab](https://www.visinf.
 
 ## Publications
 Will be updated soon.
-In the meantime you can find my articles on <u><a href="{{https://scholar.google.ch/citations?user=05-lAc8AAAAJ&hl}}">my Google Scholar profile</a>.</u>
+In the meantime you can find my articles [here](https://people.inf.ethz.ch/~meyersi/) or on [my Google Scholar profile](https://scholar.google.ch/citations?user=05-lAc8AAAAJ&hl).
