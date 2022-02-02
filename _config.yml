@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Simone Schaub-Meyer"
   avatar           : "profile_2.jpg"
-  bio              : "Postdoctoral Researche | Head of research group EVA"
+  bio              : "Postdoctoral Researcher | Head of research group EVA"
   location         : "Germany & Switzerland"
   employer         : "TU Darmstadt"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -110,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : "https://twitter.com/schaub_simone"
   vine             :
   weibo            :
   xing             :
