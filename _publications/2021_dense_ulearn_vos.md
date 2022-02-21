@@ -8,7 +8,7 @@ authors: "N. Araslanov, S. Schaub-Meyer, S. Roth"
 uri: 
 bibtex:
 arxiv:
-openpdf: https://papers.nips.cc/paper/2020/file/3000311ca56a1cb93397bc676c0b7fff-Paper.pdf
+openpdf: https://proceedings.neurips.cc/paper/2021/file/d516b13671a4179d9b7b458a6ebdeb92-Paper.pdf
 supp: https://openreview.net/attachment?id=i8kfkuiCJCI&name=supplementary_material
 teaser: images/2021_vos.gif
 videoresults: https://www.youtube.com/watch?v=BqVtZJSLOzg
