@@ -30,11 +30,11 @@
     {% if post.date %}{{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}	
 	{% if post.oral%}<font color="red"> &nbsp; (Oral Presentation)</font> {% endif %}
     <br> 
-    [{% if post.pdf%} <a href="{{ post.pdf }}">Paper</a>{% endif %}
-	 {% if post.openpdf%} <a href="{{ post.openpdf }}">Paper</a>{% endif %}
+    [{% if post.arxiv%} <a href="{{ post.arxiv }}">Preprint (arXiv)</a> {% endif %} 	 
+	{% if post.pdf%} {% if post.arxiv%} |  {% endif %} <a href="{{ post.pdf }}">Paper</a>{% endif %}
+	 {% if post.openpdf%} {% if post.arxiv%} |  {% endif %}  <a href="{{ post.openpdf }}">Paper</a>{% endif %}
 	 {% if post.supp%} | <a href="{{ post.supp }}">Supplement</a> {% endif %}
-	 {% if post.videoresults%} | <a href="{{ post.videoresults }}">Video</a>{% endif %} 	 
-	 {% if post.arxiv%} | <a href="{{ post.arxiv }}">Preprint</a> {% endif %} 	 
+	 {% if post.videoresults%} | <a href="{{ post.videoresults }}">Video</a>{% endif %} 
 	 {% if post.bibtex%} | <a href="{{ post.bibtex }}">BibTex</a>{% endif %}		 
 	 {% if post.imageresults%} | <a href="{{ post.imageresults }}">Results</a>{% endif %} 	 	 
 	 {% if post.videotalk%} | <a href="{{ post.videotalk }}">Talk video</a>{% endif %}	 
