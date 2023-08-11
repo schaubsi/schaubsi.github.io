@@ -1,5 +1,5 @@
 ---
-title: "FunnyBirds: A Synthetic Vision Dataset for Evaluating XAI Methods"
+title: "FunnyBirds: A Synthetic Vision Dataset for a Part-Based Analysis of Explainable AI Methods"
 collection: publications
 permalink: /publication/2023-funnybirds
 date: 2023-10-02
