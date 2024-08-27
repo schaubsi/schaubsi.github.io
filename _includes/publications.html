@@ -26,9 +26,11 @@
     </h3>
     {% if post.authors%}{{ post.authors }}{% endif %}
     <p> 
+	{% if post.date %}{{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}	
     {% if post.venue%}<span style="font-style:italic">{{ post.venue }}</span> {% endif %}
-    {% if post.date %}{{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}	
 	{% if post.oral%}<font color="red"> &nbsp; (Oral Presentation)</font> {% endif %}
+	{% if post.award%}<font color="red"> &nbsp; ({{ post.award }})</font> {% endif %}
+	{% if post.venue2%}<br> {% if post.date %}{{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}	 <span style="font-style:italic">{{ post.venue2 }}</span> {% endif %}
     <br> 
     [{% if post.arxiv%} <a href="{{ post.arxiv }}">Preprint (arXiv)</a> {% endif %} 	 
 	{% if post.pdf%} {% if post.arxiv%} |  {% endif %} <a href="{{ post.pdf }}">Paper</a>{% endif %}
