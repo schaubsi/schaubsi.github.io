@@ -32,7 +32,7 @@
 	{% if post.award%}<font color="red"> &nbsp; ({{ post.award }})</font> {% endif %}
 	{% if post.venue2%}<br> {% if post.date %}{{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}	 <span style="font-style:italic">{{ post.venue2 }}</span> {% endif %}
     <br> 
-    [{% if post.arxiv%} <a href="{{ post.arxiv }}">Preprint (arXiv)</a> {% endif %} 	 
+    {% if post.arxiv%} <a href="{{ post.arxiv }}">Preprint (arXiv)</a> {% endif %} 	 
 	{% if post.pdf%} {% if post.arxiv%} |  {% endif %} <a href="{{ post.pdf }}">Paper</a>{% endif %}
 	 {% if post.openpdf%} {% if post.arxiv%} |  {% endif %}  <a href="{{ post.openpdf }}">Paper</a>{% endif %}
 	 {% if post.supp%} | <a href="{{ post.supp }}">Supplement</a> {% endif %}
@@ -42,8 +42,7 @@
 	 {% if post.videotalk%} | <a href="{{ post.videotalk }}">Talk video</a>{% endif %}	 
 	 {% if post.poster%} | <a href="{{ post.poster }}">Poster</a>{% endif %}
 	 {% if post.project%} | <a href="{{ post.project }}">Project page</a>{% endif %} 	 
-	 {% if post.code%} | <a href="{{ post.code }}">Code</a> {% endif %} 
-    ]    
+	 {% if post.code%} | <a href="{{ post.code }}">Code</a> {% endif %}     
     </p>
       </td>
     </tr>

@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2023-funnybirds
 date: 2023-10-02
 venue: "ICCV"
+venue2: "GCPR Nectar Track"
 authors: "R. Hesse, S. Schaub-Meyer, S. Roth"
 oral: yes
 uri: 
